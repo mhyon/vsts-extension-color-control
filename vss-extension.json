@@ -1,10 +1,11 @@
 {
     "manifestVersion": 1,
     "id": "color-form-control",
-    "version": "1.0.3",
+    "version": "1.0.7",
     "name": "Color picklist control",
     "description": "Add custom colors and labels for picklist fields.",
-    "publisher": "ms-devlabs",
+    "publisher": "matthyon",
+    "public": false,
     "icons": {
         "default": "img/logo.png"
     },
@@ -65,7 +66,7 @@
         }
     ],
     "categories": [
-        "Plan and track"
+        "Azure Boards"
     ],
     "contributions": [
         {

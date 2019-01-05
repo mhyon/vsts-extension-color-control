@@ -116,7 +116,9 @@ export class colorControl {
             }
         });
 
-        $('body').empty().append(container);
+        //$('body').empty().append(container);
+        var colorcon = $(".color-demo-container");
+        container.appendTo(colorcon);
 
         $(document).ready(() => {
             this._scroll();

@@ -18,10 +18,13 @@
         });
 
         // Load main entry point for extension 
-        VSS.require(["scripts/app"], function () {
+        VSS.require(["scripts/app", "scripts/combo"], function () {
             // loading succeeded
             VSS.notifyLoadSucceeded();
         });
     </script>
+
+    <div class="color-demo-container"></div>
+    <div class="sample-container"></div>
 </body>
 </html>
