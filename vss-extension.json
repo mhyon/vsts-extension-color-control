@@ -109,6 +109,20 @@
                             "dataType": "String",
                             "isRequired": false
                         }
+                    },
+                    {
+                        "id": "ExtAreaPath",
+                        "name": "Select the field for this control.",
+                        "description": "The field that will persist the selected Area Path value.",
+                        "type": "WorkItemField",
+                        "properties": {
+                            "workItemFieldTypes": ["String", "Integer"]
+                        },
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+
                     }
                 ]
             }
